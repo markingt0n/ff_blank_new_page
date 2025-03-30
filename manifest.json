@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Image New Tab Page",
+    "version": "1.0",
+    "description": "Replaces the default New Tab page with a page displaying a predefined image.",
+  
+    "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    },
+  
+
+  
+    "chrome_url_overrides": {
+      "newtab": "image_page.html"
+    }
+  
+
+ 
+  }
